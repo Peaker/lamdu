@@ -11,7 +11,7 @@ mkDerivation {
   src = fetchFromGitHub {
     owner = "lamdu";
     repo = "momentu";
-    sha256 = "TODO";
+    sha256 = "1avkckgb46dzryczvh7c0ywx8wb3y8ic0s091a171wd765r9id3z";
     rev = "c844afbfc95fb7391f9b9d1023630fea40a3fc9f";
   };
   libraryHaskellDepends = [
