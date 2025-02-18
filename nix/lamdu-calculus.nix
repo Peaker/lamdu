@@ -9,7 +9,7 @@ mkDerivation {
   src = fetchFromGitHub {
     owner = "lamdu";
     repo = "lamdu-calculus";
-    sha256 = "TODO";
+    sha256 = "1klgidkn28lgdjrz59lfs8g8rqqgs5iq52p3spvsz259z7fn3nlf";
     rev = "21332a4c1576ad028bbb693b23e8943089256ef8";
   };
   libraryHaskellDepends = [

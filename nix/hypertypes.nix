@@ -9,7 +9,7 @@ mkDerivation {
   src = fetchFromGitHub {
     owner = "lamdu";
     repo = "hypertypes";
-    sha256 = "TODO";
+    sha256 = "1m70a479b1d00nx6s38sg20qnb1pziinvqz11mh4vgq2nm28cn5p";
     rev = "06cf48ef9c85c54cbe722a448754cb89931b23e7";
   };
   libraryHaskellDepends = [
