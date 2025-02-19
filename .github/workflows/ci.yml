@@ -46,7 +46,7 @@ jobs:
         stack exec --system-ghc -- pacman -Syyu --noconfirm
         stack exec --system-ghc -- pacman -S --noconfirm mingw-w64-x86_64-rocksdb
 
-    - uses: actions/cache@v4.2.0
+    - uses: actions/cache@v4.2.1
       if: ${{ matrix.os == 'ubuntu-latest' }}
       name: Cache ~/.stack
       with:
